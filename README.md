@@ -15,3 +15,6 @@ Terraform & aws EKS
 1. Add a file vpc.tf and paste configuration for [vpc module](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest) from Terraform registry
 2. Add necessary inputs and variables
 3. Install module: `terraform init`
+4. Add another file eks-cluster.tf and paste basic configuration from Terraform registry
+5. Add all necessary inputs and variables
+6. Install module: `terraform init`
